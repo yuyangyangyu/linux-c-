@@ -1,6 +1,17 @@
-# linux-c-
-this is a learn git
-this is new line
- 
-this is a learn git 
-this is a new line
+this is a learn vim 
+======delete====
+1.前向删除（正向删除）
+ 首先移动光标带单词头部(b)
+ 删除单词(dw)
+
+2.反向删除
+ 光标位于单词的尾部(db)
+ 再操作删除剩余的尾部字母(x)
+
+3.删除整个单词
+ (daw)
+
+4.撤销
+ 会以块的形式撤销操作(u)
+ *换行推荐ECS+o的形式，增加更细的粒度
+
